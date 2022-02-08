@@ -1,4 +1,4 @@
-#test.csvファイルに名前を修正しました。
+#指定したファイル名で表示できるように修正しました。
 require "csv"
 
 puts "1(新規でメモを作成) 2(既存のメモを編集する)"
@@ -30,6 +30,8 @@ end
     CSV.open("test.csv","a") do | csv |
       csv << ["#{memo_type}"]
     end
+    
   else 
     puts "エラー"
   end
+  
