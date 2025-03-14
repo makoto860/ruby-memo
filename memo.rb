@@ -1,5 +1,3 @@
-#指定したファイル名で表示できるように修正しました。
-
 require "csv"
 puts "1(新規でメモを作成) 2(既存のメモを編集する)"
 memo_type= gets.chomp
