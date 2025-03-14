@@ -35,5 +35,5 @@ elsif memo_type == "2"
   end
     
 else 
-  puts "エラー"
+  puts "1か2を押してください"
 end
